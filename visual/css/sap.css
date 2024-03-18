@@ -132,10 +132,25 @@ h3{
 .seta{
     background-color: #fafafa;
     border-style: none;
+    align-self: center;
     height: 30px;
     width: 30px;
     margin-left: -3px;
     border-radius: 150px;
+}
+
+.div-seta{ 
+    background-color: #fafafa;
+    border-style: none;
+    align-self: center;
+    height: 30px;
+    width: 30px;
+    margin-left: -3px;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .info-pedidos{
@@ -222,6 +237,7 @@ h3{
     height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: 5%;
     width: 13%;
 }
@@ -373,6 +389,7 @@ h4{
     height: 90%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     border-radius: 5%;
     width: 32%;
 }
@@ -381,6 +398,8 @@ h4{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    font-size: 14px;
+    color: black;
 }
 
 .bolinhas-total{
@@ -409,7 +428,39 @@ h4{
     width: 70%;
 }
 
+.sap{
+    height: 60%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    width: 60%;
+}
 
+.mais{
+    background-color: #fafafa;
+    height: 100%;
+    width: 20%;
+    border-radius: 100%;
+    color: blue;
+    font-size: large;
+}
+
+.ver-mais{
+    display: flex;
+    justify-items: end;
+}
+
+.shopping-cart{
+    width: 20%;
+    border-radius: 100%;
+    background-color: #d8d9fd;
+    border-style: none;
+}
+
+.img-shopping-cart{
+    height: 80%;
+    width: 50%;
+    align-self: center;
+}
 
 /*------------- ------------------------ ------------------ -SAP ANTIGO- -------------------- --------------------- ---------------------*/
 
