@@ -6,17 +6,169 @@
     <title>Component Configurator f...</title>
     <link rel="stylesheet" href="visual/css/sap.css">
 </head>
-<body>
+<body id="old-body">
     <header id="old-header">
-        <h1>Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
+        <h1 id="header-title">Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</h1>
     </header>
     <div id="protective-tape"></div>
-    <section class="button-menu">
-        <button class="old-buttons">asd</button>
-    </section>
-    <aside id="navigation"></aside>
-    <main class="old-main">
-        
+    <nav class="button-menu" id="transparent">
+        <button class="old-buttons">💾 Save</button>
+        <div class="vl"></div>
+        <button class="old-buttons">❌ Cancel</button>
+        <button class="old-buttons less-opacity">✏️ Edit</button>
+        <div class="vl"></div>
+        <button class="old-buttons less-opacity">💾 Save Draft</button>
+        <button class="old-buttons less-opacity">Load Draft</button>
+        <div class="vl"></div> 
+        <button class="old-buttons less-opacity">🔄</button>
+        <button class="old-buttons less-opacity">↩️ Undo</button>
+        <button class="old-buttons less-opacity">↪️ Redo</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">Check</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <button class="old-buttons">🟦</button>
+        <div class="vl"></div> 
+        <select name="additional-functions" class="dropdown-old">
+            <option value="Additional Functions">Additional Functions</option>
+            <option value="Quadrado">Quadrado</option>
+            <option value="Triangulo">Triângulo</option>
+            <option value="Circulo">Círculo</option>
+          </select>
+    </nav>
+    <div class="sidebar">
+        <header id="sidebar-header">
+            <h1 class="big-text">Navigation</h1>
+            <span class="medium-text">Repositories</span>
+            <img id="folder" src="./visual/imagens/open-folder.png">
+        </header>
+        <div class="triangle" id="triangle-sidebar"></div>
+            <nav class="button-menu" id="sidebar-buttons">
+                <select name="New" class="dropdown-old">
+                    <option value="New">📄 New</option>
+                    <option value="Quadrado">Quadrado</option>
+                    <option value="Triangulo">Triângulo</option>
+                    <option value="Circulo">Círculo</option>
+                </select>
+                  <button class="old-buttons">🗑️</button> 
+                  <button class="old-buttons">📄</button>
+                  <div class="vl"></div> 
+                  <button class="old-buttons less-opacity">Up</button>
+                  <button class="old-buttons">Down</button> 
+                  <button class="old-buttons" id="mechanic-button">🧑‍🔧</button>
+            </nav>
+            <table>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item item-top">Page Type</td>
+                    <td class="table-item item-top">Page Id</td>
+                    <td class="table-item item-top">Title</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Initial Page</td>
+                    <td class="table-item">MAIN</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row" id="blue-blank"></td>
+                    <td class="table-item blue-item">Main Page</td>
+                    <td class="table-item blue-item">MAIN</td>
+                    <td class="table-item blue-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Main Page</td>
+                    <td class="table-item">MAIN_FAST_El</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Main Page</td>
+                    <td class="table-item">MAIN_FAST_El</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">ADRESS_DET</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">ACT_LIST</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">NOTE_HLP</td>
+                    <td class="table-item">$OTR:/BOFUA</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">SEC_FILING_R</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">SEC_FILING_C</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">REPACT_NOTE</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+                <tr class="table-row">
+                    <td class="blank-row"></td>
+                    <td class="table-item">Dialog Box</td>
+                    <td class="table-item">REPACT_ATF</td>
+                    <td class="table-item">$OTR:/SCMTI</td>
+                </tr>
+            </table>
+    </div>
+    <main id="old-main">
+        <section id="higher-old">
+            <div id="white-square"><div id="gray-square"></div></div>
+            <header id="main-header">
+                <button id="circular-button"><img src="./visual/imagens/small-triangle-down.svg"></button>
+                <h1 class="big-text">Overview Page Schema</h1>
+                <span class="medium-text">Toolbar Schema</span>
+                <span class="medium-text">Wire Schema</span>
+                <img id="folder-main" src="./visual/imagens/open-folder.png">
+            </header>
+            <div class="triangle" id="main-triangle"></div>
+            <nav class="button-menu" id="main-buttons">
+                  <button class="old-buttons">📄 Page Master Area</button> 
+                  <button class="old-buttons">📄 Section</button>
+                  <select name="New" class="dropdown-old">
+                    <option value="New">📄 UIBB</option>
+                    <option value="Quadrado">Quadrado</option>
+                    <option value="Triangulo">Triângulo</option>
+                    <option value="Circulo">Círculo</option>
+                  </select>
+                  <button class="old-buttons">🗑️</button> 
+                  <button class="old-buttons" style="margin-left: auto">Configure UIBB</button>
+                  <button class="old-buttons" style="margin-right: 10px;">🧑‍🔧</button>
+            </nav>
+            <table id="main-table">
+                <tr class="table-row">
+                    <td class="blank-row" id="icon-blank"><img src="./visual/imagens/two-overlapping-square.png" id="main-table-image"></td>
+                    <td class="table-item-main item-top">Element</td>
+                    <td class="table-item-main item-top">Component</td>
+                    <td class="table-item-main item-top">Config ID</td>
+                    <td class="table-item-main item-top">Window Name</td>
+                </tr>
+            </table>
+        </section>
     </main>
 </body>
 </html>
